@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local PostgreSQL Data Directories & Docker Volumes
+postgres_data/
+ny_taxi_postgres_data/
+ny_taxi_postgres_data_*/
+
+# Data files (CSV/GZ)
+*.csv
+*.csv.gz
+*.gz
+
+# Docker local overrides
+docker-compose.override.yml
